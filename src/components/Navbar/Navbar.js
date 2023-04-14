@@ -33,7 +33,7 @@ function Navbar() {
             Joshua Nelson
           </Link>
         </div>
-        <Nav.Item className="p-4 hover-shadow">
+        <Nav.Item className="p-4">
           <Link to="/projects" style={styles.navText}>
             Projects
           </Link>
