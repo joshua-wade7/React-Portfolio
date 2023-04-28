@@ -27,6 +27,12 @@ const styles = {
   headerText: {
     color: "#F4EEE0",
   },
+
+  img: {
+    maxWidth: "75%",
+    marginLeft: "auto",
+    marginRight: "auto",
+  },
 };
 
 function Projects() {
@@ -78,9 +84,48 @@ function Projects() {
                       <Card.Title>Devlore Cafe</Card.Title>
                     </a>
                     <Card.Text>
-                      This is a longer card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      <strong>A place to have your menu reviewed:</strong> A web
+                      app that enables the user to be able to create an account
+                      to review a prospective restaurants in progress menu.{" "}
+                      <br />
+                      <strong>Technologies:</strong> Handlebars, MySQL,
+                      JavaScript, Bootstrap.
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col>
+                <Card
+                  style={cardStyle}
+                  onMouseEnter={handleMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  <a
+                    href="https://github.com/joshua-wade7/beta-tasters"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Card.Img variant="top" src={cafe_photo} />
+                  </a>
+                  <Card.Body style={styles.cardBody}>
+                    <a
+                      href="https://github.com/joshua-wade7/beta-tasters"
+                      target="_blank"
+                      rel="noreferrer"
+                      style={styles.cardTitle}
+                    >
+                      <Card.Title>Encoded</Card.Title>
+                    </a>
+                    <Card.Text>
+                      <strong>
+                        Alternative to linkedIn for the Teck community
+                      </strong>{" "}
+                      A web application allowing the user to connect with the
+                      tech community through their profile, company, and school
+                      pages.
+                      <br />
+                      <strong>Technologies:</strong> React, Tailwind CSS, Daisy
+                      ui, GraphQL, MongoDB
                     </Card.Text>
                   </Card.Body>
                 </Card>
@@ -106,9 +151,11 @@ function Projects() {
                       <Card.Title>Digital Librarian</Card.Title>
                     </a>
                     <Card.Text>
-                      This is a longer card with supporting text below as a
-                      natural lead-in to additional content. This content is a
-                      little bit longer.
+                      <strong>A book search application:</strong> Enables users
+                      to be able to look up books by author or title and allows
+                      them to be able to research information about both. <br />
+                      <strong>Technologies:</strong> HTML, CSS, Materialize,
+                      JavaScript, JQuery, Google Books API
                     </Card.Text>
                   </Card.Body>
                 </Card>

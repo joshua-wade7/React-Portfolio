@@ -29,22 +29,22 @@ function Navbar() {
         style={styles.NavBar}
       >
         <div className="container">
-          <Link to="/aboutme" className="p-4" style={styles.navName}>
+          <Link to="/aboutme" className="p-4 nav-link" style={styles.navName}>
             Joshua Nelson
           </Link>
         </div>
         <Nav.Item className="p-4">
-          <Link to="/projects" style={styles.navText}>
+          <Link to="/projects" className="nav-link" style={styles.navText}>
             Projects
           </Link>
         </Nav.Item>
         <Nav.Item className="p-4">
-          <Link to="/contactme" style={styles.navText}>
+          <Link to="/contactme" className="nav-link" style={styles.navText}>
             Contact Me
           </Link>
         </Nav.Item>
         <Nav.Item className="p-4 me-5">
-          <Link to="/resume" style={styles.navText}>
+          <Link to="/resume" className="nav-link" style={styles.navText}>
             Resume
           </Link>
         </Nav.Item>
