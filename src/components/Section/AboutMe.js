@@ -45,11 +45,11 @@ function AboutMe() {
         {/* <img id="img-0" src={profilePic} alt="Photo of Developer" /> */}
         <div className="d-flex flex-row justify-content-center">
           <p className="mt-4 w-50" style={styles.text}>
-            Aspiring young Web Developer with years of managerial and problem
-            solving experience over numerous jobs. Tackling everyday issues is a
-            joy and it is something that I continuoly look to grow and develop
-            everyday. Allow me to help your company take the next step it needs
-            in this ever-growing digital world.
+            Aspiring Web Developer with years of managerial and problem solving
+            experience over numerous jobs. Tackling everyday issues is a joy and
+            it is something that I continuoly look to grow and develop everyday.
+            Allow me to help your company take the next step it needs in this
+            ever-growing digital world.
           </p>
         </div>
 

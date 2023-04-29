@@ -28,9 +28,9 @@ function Navbar() {
         activeKey="/home"
         style={styles.NavBar}
       >
-        <div className="container">
-          <Link to="/aboutme" className="p-4 nav-link" style={styles.navName}>
-            Joshua Nelson
+        <div className="container mt-3">
+          <Link to="/aboutme" className="p-4" style={styles.navName}>
+            JOSHUA NELSON
           </Link>
         </div>
         <Nav.Item className="p-4">

@@ -5,7 +5,6 @@ import Projects from "./components/Section/Projects";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Resume from "./components/Section/Resume";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 
 function App() {
