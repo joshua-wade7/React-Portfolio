@@ -28,7 +28,7 @@ function Resume() {
           </Col>
           <Col className="">
             {/* resume link currently not working - look at later! */}
-            <a href="./React-Portfolio/Files/JoshuaResume.pdf" download>
+            <a href="./React-portfolio/Files/JoshuaResume.pdf" download>
               <Button variant="dark" className="mt-2">
                 Download PDF
               </Button>
@@ -49,7 +49,7 @@ function Resume() {
               <li>MERN Full-Stack Web Development</li>
             </ul>
           </Col>
-          <Col style={styles.textColor}>
+          {/* <Col style={styles.textColor} className="ms-5">
             <h2>Skills</h2>
             <ul>
               <li>JavaScript</li>
@@ -59,7 +59,7 @@ function Resume() {
               <li>Bootstrap</li>
               <li>MySQL</li>
             </ul>
-          </Col>
+          </Col> */}
           <Row style={styles.textColor}>
             <Col lg={5}>
               <h3>

@@ -33,17 +33,22 @@ function Navbar() {
             JOSHUA NELSON
           </Link>
         </div>
+        {/* <Nav.Item className="p-4">
+          <Link to="/contactme" className="nav-link" style={styles.navText}>
+            Contact Me
+          </Link>
+        </Nav.Item> */}
         <Nav.Item className="p-4">
           <Link to="/projects" className="nav-link" style={styles.navText}>
             Projects
           </Link>
         </Nav.Item>
         <Nav.Item className="p-4">
-          <Link to="/contactme" className="nav-link" style={styles.navText}>
-            Contact Me
+          <Link to="/aboutme" className="nav-link" style={styles.navText}>
+            About Me
           </Link>
         </Nav.Item>
-        <Nav.Item className="p-4 me-5">
+        <Nav.Item className="p-4">
           <Link to="/resume" className="nav-link" style={styles.navText}>
             Resume
           </Link>
