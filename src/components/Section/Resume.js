@@ -27,7 +27,7 @@ function Resume() {
             <h2>Full-Stack Web Developer</h2>
           </Col>
           <Col className="">
-            <a href="../../React-portfolio/Files/JoshuaResume.pdf" download>
+            <a href="./React-portfolio/Files/JoshuaResume.pdf" download>
               <Button variant="dark" className="mt-2">
                 Download PDF
               </Button>
