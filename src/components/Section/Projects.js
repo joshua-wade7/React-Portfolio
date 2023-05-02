@@ -12,7 +12,7 @@ import encoded from "../../images/encoded.PNG";
 import devLore from "../../images/devLore.PNG";
 import socialNetwork from "../../images/social_network_api.PNG";
 import tracker from "../../images/employee_tracker.PNG";
-// import employeeTracker from "../../images/employeeTracker.jpg";
+
 import jatePhoto from "../../images/Jate.PNG";
 
 const styles = {
@@ -71,22 +71,11 @@ function Projects() {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  {/* <a
-                    href="https://github.com/joshua-wade7/beta-tasters"
-                    target="_blank"
-                    rel="noreferrer"
-                  > */}
                   <Card.Img variant="top" src={devLore} />
-                  {/* </a> */}
+
                   <Card.Body style={styles.cardBody}>
-                    {/* <a
-                      href="https://github.com/joshua-wade7/beta-tasters"
-                      target="_blank"
-                      rel="noreferrer"
-                      style={styles.cardTitle}
-                    > */}
                     <Card.Title>Devlore Cafe</Card.Title>
-                    {/* </a> */}
+
                     <Card.Text>
                       <strong>Description:</strong> A web app that enables the
                       user to be able to create an account to review a
@@ -112,22 +101,11 @@ function Projects() {
                   onMouseEnter={handleMouseEnter}
                   onMouseLeave={handleMouseLeave}
                 >
-                  {/* <a
-                    href="https://github.com/joshua-wade7/beta-tasters"
-                    target="_blank"
-                    rel="noreferrer"
-                  > */}
                   <Card.Img variant="top" src={encoded} />
-                  {/* </a> */}
+
                   <Card.Body style={styles.cardBody}>
-                    {/* <a
-                      href="https://github.com/joshua-wade7/beta-tasters"
-                      target="_blank"
-                      rel="noreferrer"
-                      style={styles.cardTitle}
-                    > */}
                     <Card.Title>Encoded</Card.Title>
-                    {/* </a> */}
+
                     <Card.Text>
                       <strong>Description:</strong> Alternative to linkedIn with
                       an emphasis on the tech industry and enabling the user to
@@ -152,22 +130,11 @@ function Projects() {
             <Row xs={1} md={2} className="g-4">
               <Col>
                 <Card>
-                  {/* <a
-                    href="https://github.com/joshua-wade7/book-search"
-                    target="_blank"
-                    rel="noreferrer"
-                  > */}
                   <Card.Img variant="top" src={digitalLibrarian} />
-                  {/* </a> */}
+
                   <Card.Body style={styles.cardBody}>
-                    {/* <a
-                      href="https://github.com/joshua-wade7/book-search"
-                      target="_blank"
-                      rel="noreferrer"
-                      style={styles.cardTitle}
-                    > */}
                     <Card.Title>Digital Librarian</Card.Title>
-                    {/* </a> */}
+
                     <Card.Text>
                       <strong>Description:</strong> Enables users to be able to
                       look up books by author or title and allows them to be
@@ -189,22 +156,11 @@ function Projects() {
               </Col>
               <Col>
                 <Card>
-                  {/* <a
-                    href="https://github.com/joshua-wade7/Social-Network-Api"
-                    target="_blank"
-                    rel="noreferrer"
-                  > */}
                   <Card.Img variant="top" src={socialNetwork} />
-                  {/* </a> */}
+
                   <Card.Body style={styles.cardBody}>
-                    {/* <a
-                      href="https://github.com/joshua-wade7/Social-Network-Api"
-                      target="_blank"
-                      rel="noreferrer"
-                      style={styles.cardTitle}
-                    > */}
                     <Card.Title>Social Network Api</Card.Title>
-                    {/* </a> */}
+
                     <Card.Text>
                       <strong>Description:</strong> An API that allows users to
                       add, update, and delete friends within a social networking
@@ -228,23 +184,11 @@ function Projects() {
             <Row xs={1} md={2} className="g-4 mb-5">
               <Col>
                 <Card>
-                  {/* <a
-                    href="https://github.com/joshua-wade7/READEME.generator"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={styles.cardTitle}
-                  > */}
                   <Card.Img variant="top" src={jatePhoto} />
-                  {/* </a> */}
+
                   <Card.Body style={styles.cardBody}>
-                    {/* <a
-                      href="https://github.com/joshua-wade7/READEME.generator"
-                      target="_blank"
-                      rel="noreferrer"
-                      style={styles.cardTitle}
-                    > */}
                     <Card.Title>Jate</Card.Title>
-                    {/* </a> */}
+
                     <Card.Text>
                       <strong>Description:</strong> A web app that enables the
                       user to create notes or code snippets with or without an
@@ -265,23 +209,11 @@ function Projects() {
               </Col>
               <Col>
                 <Card>
-                  {/* <a
-                    href="https://github.com/joshua-wade7"
-                    target="_blank"
-                    rel="noreferrer"
-                    style={styles.cardTitle}
-                  > */}
                   <Card.Img variant="top" src={tracker} />
-                  {/* </a> */}
+
                   <Card.Body style={styles.cardBody}>
-                    {/* <a
-                      href="https://github.com/joshua-wade7"
-                      target="_blank"
-                      rel="noreferrer"
-                      style={styles.cardTitle}
-                    > */}
                     <Card.Title>Employee Tracker</Card.Title>
-                    {/* </a> */}
+
                     <Card.Text>
                       <strong>Description:</strong> A back-end application
                       enabling a manager to be able to track their employees
@@ -302,39 +234,6 @@ function Projects() {
                 </Card>
               </Col>
             </Row>
-            {/* <Card style={{ width: "18rem" }} className="mt-2">
-              <Card.Img variant="bottom" src={booklibrary} />
-              <Card.Body className="mb-20">
-                <Card.Title className="text-center">
-                  Digital Librarian
-                </Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button
-                  variant="primary"
-                  href="https://github.com/joshua-wade7/book-search"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Lets See it!
-                </Button>
-              </Card.Body>
-            </Card> */}
-            {/* <a
-              href="https://github.com/joshua-wade7/book-search"
-              target="_blank"
-              rel="noreferrer"
-              className="col-5"
-            >
-              <h3 id="img-1 ">Digital Librarian</h3>
-              <img
-                className="w-50"
-                src={booklibrary}
-                alt="Photo of a webpage for researching books"
-              />
-            </a> */}
           </div>
         </div>
       </section>

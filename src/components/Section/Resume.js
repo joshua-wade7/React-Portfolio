@@ -28,7 +28,7 @@ function Resume() {
           </Col>
           <Col className="">
             {/* resume link currently not working - look at later! */}
-            <a href="./React-portfolio/Files/JoshuaResume.pdf" download>
+            <a href="../React-portfolio/Files/JoshuaResume.pdf" download>
               <Button variant="dark" className="mt-2">
                 Download PDF
               </Button>
@@ -49,17 +49,7 @@ function Resume() {
               <li>MERN Full-Stack Web Development</li>
             </ul>
           </Col>
-          {/* <Col style={styles.textColor} className="ms-5">
-            <h2>Skills</h2>
-            <ul>
-              <li>JavaScript</li>
-              <li>GraphQL</li>
-              <li>MongoDB</li>
-              <li>React (learning)</li>
-              <li>Bootstrap</li>
-              <li>MySQL</li>
-            </ul>
-          </Col> */}
+
           <Row style={styles.textColor}>
             <Col lg={5}>
               <h3>
@@ -91,10 +81,6 @@ function Resume() {
                 implementation of Standard Operating Procedures (SOP’s)
               </li>
             </ul>
-            {/* <h4>Accomplishments</h4>
-              <ul>
-                <li>Introduced New Method for Auditing the Draw</li>
-              </ul> */}
           </Col>
           <Col className="p-4">
             <h3>Route Manager</h3>
@@ -111,17 +97,7 @@ function Resume() {
                 customers understand the process
               </li>
               <li>Stocked accounts with every battery sold since last visit</li>
-              {/* <li>
-                  Demonstrated discipline in restocking route truck every
-                  evening to setup the following day with all necessary
-                  batteries and accessories
-                </li> */}
             </ul>
-            {/* <h4>Accomplishments</h4>
-              <ul>
-                <li>Recognized by Clients for exemplary Customer Service</li>
-                <li>Promoted in 6 Months</li>
-              </ul> */}
           </Col>
           <Col className="p-4">
             <h3>Publics Coordinator | Event Services Staff</h3>
@@ -147,24 +123,7 @@ function Resume() {
                 make final tweaks in room arrangements and meeting room setups
               </li>
             </ul>
-            {/* <h4>Accomplishments</h4>
-              <ul>
-                <li>Promoted in 6 Months</li>
-              </ul> */}
           </Col>
-          {/* <Col className="p-5">
-              <h3>Front Desk Agent, Marriott Hotel - Denver, CO</h3>
-              <p>May 2019 - Aug 2019</p>
-              <h4>Responsibilities</h4>
-              <ul>
-                <li>Handled Customer Request and Interactions</li>
-                <li>Performed Daily Audits on Guest Rooms and Vacancy </li>
-              </ul>
-              <h4>Accomplishments</h4>
-              <ul>
-                <li>Recognized by Clients for exemplary Customer Service</li>
-              </ul>
-            </Col> */}
         </Row>
       </Container>
     </div>
