@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import resume from "../../files/Files/JoshuaResume.pdf";
 
 const styles = {
   bodyBackground: {
@@ -27,7 +28,7 @@ function Resume() {
             <h2>Full-Stack Web Developer</h2>
           </Col>
           <Col className="">
-            <a href="./React-portfolio/Files/JoshuaResume.pdf" download>
+            <a href={resume} download>
               <Button variant="dark" className="mt-2">
                 Download PDF
               </Button>

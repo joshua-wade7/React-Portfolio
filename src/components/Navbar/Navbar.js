@@ -26,10 +26,12 @@ function Bar() {
   return (
     <Navbar expand="lg" style={styles.Navbar}>
       <Container>
-        <Navbar.Brand style={styles.navName}>Joshua Nelson</Navbar.Brand>
+        <Link to="/aboutme" style={styles.navName}>
+          JOSHUA NELSON
+        </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="ms-auto">
             <Link className="nav-link" to="/projects" style={styles.navText}>
               Projects
             </Link>
@@ -40,7 +42,7 @@ function Bar() {
               Resume
             </Link>
             {/* <Link className="nav-link" to="">
-              Resume
+              Contact Me
             </Link> */}
           </Nav>
         </Navbar.Collapse>
