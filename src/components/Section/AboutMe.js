@@ -66,10 +66,13 @@ function AboutMe() {
               <br></br>
               <p className="justify-content-start w-50" style={styles.aboutMe}>
                 Aspiring Web Developer with years of managerial and problem
-                solving experience over numerous jobs. Tackling everyday issues
-                is a joy and it is something that I continuoly look to grow and
-                develop everyday. Allow me to help your company take the next
-                step it needs in this ever-growing digital world.
+                solving experience over numerous jobs. I recently completed a 12
+                week long coding bootcamp through Denver University. Tackling
+                everyday issues is a joy for me, especially within the codebase,
+                and it is something that I continuoly look to grow and develop
+                everyday. I am very excited to continue to learn all things
+                coding and to join a team that I can come along side and help
+                knock their projects out of the park!
               </p>
             </div>
             <Container>
