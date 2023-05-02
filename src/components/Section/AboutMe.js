@@ -81,6 +81,8 @@ function AboutMe() {
               <li>Express</li>
               <li>Node</li>
               <li>MongoDB</li>
+              <li>JQuery</li>
+              <li>BootStrap</li>
             </ul>
             <br></br>
             <h2>Skills I have worked with and am continuing to learn</h2>
