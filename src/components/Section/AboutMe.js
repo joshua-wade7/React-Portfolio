@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -45,6 +45,9 @@ const styles = {
 };
 
 function AboutMe() {
+  useEffect(() => {
+    document.title = "AboutMe";
+  }, []);
   return (
     <div style={styles.bodyBackground}>
       <Container>

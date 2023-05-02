@@ -1,9 +1,11 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
 const styles = {
-  NavBar: {
+  Navbar: {
     // backgroundColor: "#cccccc",
     background: "#4F4557",
   },
@@ -20,47 +22,77 @@ const styles = {
   },
 };
 
-function Navbar() {
+function Bar() {
   return (
-    <>
-      <Nav
-        className="justify-content-center m-auto"
-        activeKey="/home"
-        style={styles.NavBar}
-      >
-        <div className="container mt-3">
-          <Link to="/aboutme" className="p-4" style={styles.navName}>
-            JOSHUA NELSON
-          </Link>
-        </div>
-        {/* <Nav.Item className="p-4">
-          <Link to="/contactme" className="nav-link" style={styles.navText}>
-            Contact Me
-          </Link>
-        </Nav.Item> */}
-        <Nav.Item className="p-4">
-          <Link to="/projects" className="nav-link" style={styles.navText}>
-            Projects
-          </Link>
-        </Nav.Item>
-        <Nav.Item className="p-4">
-          <Link to="/aboutme" className="nav-link" style={styles.navText}>
-            About Me
-          </Link>
-        </Nav.Item>
-        <Nav.Item className="p-4">
-          <Link to="/resume" className="nav-link" style={styles.navText}>
-            Resume
-          </Link>
-        </Nav.Item>
-        {/* <Nav.Item className="p-4">
-          <Link to="disabled" disabled>
-            Disabled
-          </Link>
-        </Nav.Item> */}
-      </Nav>
-    </>
+    <Navbar expand="lg" style={styles.Navbar}>
+      <Container>
+        <Navbar.Brand style={styles.navName}>Joshua Nelson</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Link className="nav-link" to="/projects" style={styles.navText}>
+              Projects
+            </Link>
+            <Link className="nav-link" to="/aboutme" style={styles.navText}>
+              About Me
+            </Link>
+            <Link className="nav-link" to="/resume" style={styles.navText}>
+              Resume
+            </Link>
+            {/* <Link className="nav-link" to="">
+              Resume
+            </Link> */}
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Navbar;
+// function Bar() {
+//   return (
+//     <>
+//       <Nav
+//         className="justify-content-center m-auto"
+//         activeKey="/home"
+//         style={styles.NavBar}
+//       >
+//         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+//         <Navbar.Collapse id="basic-navbar-nav">
+//           <div className="container mt-3">
+//             <Link to="/aboutme" className="p-4" style={styles.navName}>
+//               JOSHUA NELSON
+//             </Link>
+//           </div>
+//           {/* <Nav.Item className="p-4">
+//           <Link to="/contactme" className="nav-link" style={styles.navText}>
+//             Contact Me
+//           </Link>
+//         </Nav.Item> */}
+//           <Nav.Item className="p-4">
+//             <Link to="/projects" className="nav-link" style={styles.navText}>
+//               Projects
+//             </Link>
+//           </Nav.Item>
+//           <Nav.Item className="p-4">
+//             <Link to="/aboutme" className="nav-link" style={styles.navText}>
+//               About Me
+//             </Link>
+//           </Nav.Item>
+//           <Nav.Item className="p-4">
+//             <Link to="/resume" className="nav-link" style={styles.navText}>
+//               Resume
+//             </Link>
+//           </Nav.Item>
+//           {/* <Nav.Item className="p-4">
+//           <Link to="disabled" disabled>
+//             Disabled
+//           </Link>
+//         </Nav.Item> */}
+//         </Navbar.Collapse>
+//       </Nav>
+//     </>
+//   );
+// }
+
+export default Bar;

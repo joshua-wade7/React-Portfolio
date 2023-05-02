@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Card from "react-bootstrap/Card";
@@ -40,6 +40,9 @@ const styles = {
 };
 
 function Projects() {
+  useEffect(() => {
+    document.title = "Projects";
+  }, []);
   const [hover, setHover] = useState(false);
 
   const handleMouseEnter = () => {
