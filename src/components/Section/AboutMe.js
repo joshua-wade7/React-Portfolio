@@ -51,7 +51,7 @@ const styles = {
 
 function AboutMe() {
   useEffect(() => {
-    document.title = "AboutMe";
+    document.title = "About Me";
   }, []);
   return (
     <div style={styles.bodyBackground}>
@@ -60,14 +60,17 @@ function AboutMe() {
           <Col className="p-5">
             <h2 style={styles.align}>About Me</h2>
             <p style={styles.aboutMe}>
-              Aspiring Web Developer with years of managerial and problem
-              solving experience over numerous jobs. I recently completed a 12
-              week long coding bootcamp through Denver University. Tackling
-              everyday issues is a joy for me, especially within the codebase,
-              and it is something that I continuoly look to grow and develop
-              everyday. I am very excited to continue to learn all things coding
-              and to join a team that I can come along side and help knock their
-              projects out of the park!
+              Hello! I'm Josh, an aspiring Web Developer with managerial
+              experience throughout the last decade. Working in a team and
+              problem solving is not only something I have years of experience
+              in, it is something I thoroughly enjoy doing. In April 2023, I
+              completed a 12-week coding bootcamp through Denver University
+              where I learned the MERN stack. Tackling everyday issues is a joy
+              for me, especially within the codebase, and it is something that I
+              continually look to grow and develop. I love to learn and look
+              forward to furthering my knowledge every day; I am excited to join
+              a team that I can come along side and help knock all of their
+              projects (and bugs) out of the park!
             </p>
           </Col>
         </Row>
@@ -80,16 +83,17 @@ function AboutMe() {
               <li>JavaScript</li>
               <li>Express</li>
               <li>Node</li>
-              <li>MongoDB</li>
+              <li>SQL / Sequelize</li>
               <li>JQuery</li>
-              <li>BootStrap</li>
+              <li>GitHub Workflow</li>
             </ul>
             <br></br>
-            <h2>Skills I have worked with and am continuing to learn</h2>
+            <h2>Skills I have worked with and am continuing to grow in</h2>
             <ul style={styles.ul}>
               <li>React</li>
               <li>GraphQL</li>
-              <li>MySQL</li>
+              <li>MongoDB / Mongoose</li>
+              <li>BootStrap</li>
             </ul>
           </Col>
           <Col lg={5} md={8} className="p-3">
