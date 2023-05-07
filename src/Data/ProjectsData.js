@@ -12,14 +12,25 @@ export const projects = [
     description:
       "Alternative to linkedIn with an emphasis on the tech industry and enabling the user to make deeper connections.",
     repo: "https://github.com/therealsweven/magnificent-mustache-men",
+    technologies: "",
     id: 0,
   },
   {
     image: devloreCafe,
     title: "Devlore Cafe",
     description:
-      "Alternative to linkedIn with an emphasis on the tech industry and enabling the user to make deeper connections.",
-    repo: "https://github.com/therealsweven/magnificent-mustache-men",
+      "A web app that enables a restaurant to have their menu reviewed before its official release.",
+    repo: "https://github.com/joshua-wade7/beta-tasters",
+    technologies: "",
     id: 1,
+  },
+  {
+    image: digitalLibrarian,
+    title: "Digital Librarian",
+    description:
+      "Allows users to be able to research books by searching based on title or author.",
+    repo: "https://github.com/joshua-wade7/book-search",
+    technologies: "",
+    id: 2,
   },
 ];
