@@ -33,4 +33,31 @@ export const projects = [
     technologies: "",
     id: 2,
   },
+  {
+    image: socialNetwork,
+    title: "Social Network",
+    description:
+      "An API that allows users to add, update, and delete friends within a social networking database.",
+    repo: "https://github.com/joshua-wade7/Social-Network-Api",
+    technologies: "",
+    id: 3,
+  },
+  {
+    image: jate,
+    title: "Jate",
+    description:
+      "A PWA that enables the user to create notes or code snippets with or without an internet connection.",
+    repo: "https://github.com/joshua-wade7/PWA-Text-Editor",
+    technologies: "",
+    id: 4,
+  },
+  {
+    image: employeeTracker,
+    title: "Employee Tracker",
+    description:
+      "A back-end application that allows a business owner to be able to view and track employees within every department of their business as well as the manager head(s).",
+    repo: "https://github.com/joshua-wade7/Employee-Tracker",
+    technologies: "",
+    id: 5,
+  },
 ];
