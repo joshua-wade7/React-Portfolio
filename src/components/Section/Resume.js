@@ -27,13 +27,13 @@ function Resume() {
             <h1 className="mt-4">Joshua Nelson</h1>
             <h2>Full-Stack Web Developer</h2>
           </Col>
-          <Col className="">
+          {/* <Col className="">
             <a href={resume} download>
               <Button variant="dark" className="mt-2">
                 Download PDF
               </Button>
             </a>
-          </Col>
+          </Col> */}
         </Row>
 
         <Row>
@@ -62,7 +62,7 @@ function Resume() {
             </Col>
           </Row>
         </Row>
-        <Row style={styles.textColor}>
+        <Row style={styles.textColor} className="">
           <h2 className="py-4">Experience</h2>
           <Col className="p-4">
             <h3>Production Manager</h3>
@@ -123,6 +123,15 @@ function Resume() {
                 make final tweaks in room arrangements and meeting room setups
               </li>
             </ul>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="mb-4 d-flex justify-content-center">
+            <a href={resume} download>
+              <Button variant="dark" className="mt-2">
+                Download Resume PDF
+              </Button>
+            </a>
           </Col>
         </Row>
       </Container>
