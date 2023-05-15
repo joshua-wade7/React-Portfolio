@@ -17,6 +17,9 @@ const styles = {
   cardBody: {
     background: "#F4EEE0",
   },
+  textColor: {
+    color: "#878687",
+  },
 };
 
 function ProjectsTest() {
@@ -42,14 +45,19 @@ function ProjectsTest() {
 
                       <Card.Body style={styles.cardBody}>
                         <Card.Title>{title}</Card.Title>
+                        {/* <br /> */}
 
                         <Card.Text>
+                          {/* <h5 style={styles.textColor}>Description:</h5>
+                          <p style={styles.textColor}>{description}</p> <br />
+                          <h5>Technologies:</h5>
+                          <p>{technologies}</p> */}
                           <strong>Description:</strong> {description} <br />
                           <strong>Technologies:</strong>
                           {technologies}
                         </Card.Text>
                         <Link to={repo} target="_blank" rel="noreferrer">
-                          <Button variant="outline-dark" className="col-12">
+                          <Button variant="secondary" className="col-12">
                             Take A Look!
                           </Button>{" "}
                         </Link>
