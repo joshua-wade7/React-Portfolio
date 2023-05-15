@@ -2,6 +2,7 @@ import "./App.css";
 import React from "react";
 import AboutMe from "./components/Section/AboutMe";
 import Projects from "./components/Section/Projects";
+import ProjectsUpdated from "./components/Section/ProjectsUpdated";
 import Bar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import Resume from "./components/Section/Resume";
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/aboutme" element={<AboutMe />} />
         <Route exact path="/projects" element={<Projects />} />
         <Route exact path="/resume" element={<Resume />} />
+        <Route exact path="/projectsupdated" element={<ProjectsUpdated />} />
         <Route exact path="/contactme" element={<Contact />} />
       </Routes>
       <Footer />
