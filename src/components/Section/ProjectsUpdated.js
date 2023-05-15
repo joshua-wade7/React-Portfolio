@@ -57,7 +57,10 @@ function ProjectsTest() {
                           {technologies}
                         </Card.Text>
                         <Link to={repo} target="_blank" rel="noreferrer">
-                          <Button variant="secondary" className="col-12">
+                          <Button
+                            variant="outline-secondary"
+                            className="col-12"
+                          >
                             Take A Look!
                           </Button>{" "}
                         </Link>
