@@ -1,9 +1,10 @@
 import Form from "react-bootstrap/Form";
 import { useRef } from "react";
 import Button from "react-bootstrap/Button";
+import emailjs from "@emailjs/browser";
 const styles = {
   background: {
-    background: "#393646",
+    background: "linear-gradient(#393646, #4F4557)",
   },
   textColor: {
     color: "#F4EEE0",
@@ -20,6 +21,29 @@ function Contact() {
     e.preventDefault();
 
     let validEmail = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
+
+    if (e.target.user_email.value.match(validEmail)) {
+      emailjs
+        .sendForm(
+          "service_eqieydm",
+          "contact_form",
+          form.current,
+          "Cgfd4k93BDcCdLsfm"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      e.target.user_name.value = "";
+      e.target.user_email.value = "";
+      e.target.message.value = "";
+    } else {
+      alert("Please enter a valid email address!");
+    }
   };
   // useEffect(() => {
   //   document.title = "Contact Me";
@@ -94,13 +118,13 @@ function Contact() {
 
   return (
     <div style={styles.background}>
-      <Form className="p-5" ref={form} onSubmit={sendEmail}>
+      <form className="p-5" ref={form} onSubmit={sendEmail}>
         <Form.Group className="mb-3" controlId="formFirstName">
           <Form.Label style={styles.textColor}>Your Name</Form.Label>
           <Form.Control
             // value={firstName}
             // onChange={handleInputChange}
-            name="firstName"
+            name="user_name"
             type="text"
             placeholder="Enter Your Name"
             style={styles.inputBody}
@@ -123,7 +147,7 @@ function Contact() {
             // value={email}
             // onChange={handleInputChange}
             // onClick={validate}
-            name="email"
+            name="user_email"
             type="email"
             placeholder="name@example.com"
             style={styles.inputBody}
@@ -136,19 +160,19 @@ function Contact() {
             type="message"
             as="textarea"
             rows={3}
-            placeholder="Anything on your mind?"
+            placeholder="What's on your mind?"
             style={styles.inputBody}
           />
         </Form.Group>
         <Button
-          variant="dark"
+          variant="secondary"
           size="lg"
           type="submit"
           // onClick={handleFormSubmit}
         >
           Submit Here
         </Button>
-      </Form>
+      </form>
     </div>
   );
 }
