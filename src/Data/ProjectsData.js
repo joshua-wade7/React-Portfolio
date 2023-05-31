@@ -12,7 +12,8 @@ export const projects = [
     description:
       "Alternative to linkedIn with an emphasis on the tech industry and enabling the user to make deeper connections.",
     repo: "https://github.com/therealsweven/magnificent-mustache-men",
-    technologies: "",
+    technologies:
+      " React, JavaScript, Tailwind CSS, GraphQL, MongoDB, Mongoose",
     id: 0,
   },
   {
@@ -21,7 +22,7 @@ export const projects = [
     description:
       "A web app that enables a restaurant to have their menu reviewed before its official release.",
     repo: "https://github.com/joshua-wade7/beta-tasters",
-    technologies: "",
+    technologies: " Handlebars, MySQL, Sequelize, JavaScript, Bootstrap",
     id: 1,
   },
   {
@@ -30,16 +31,17 @@ export const projects = [
     description:
       "Allows users to be able to research books by searching based on title or author.",
     repo: "https://github.com/joshua-wade7/book-search",
-    technologies: "",
+    technologies:
+      " HTML, CSS, Materialize, JavaScript, JQuery, Google Books API",
     id: 2,
   },
   {
     image: socialNetwork,
-    title: "Social Network",
+    title: "Social Network API",
     description:
       "An API that allows users to add, update, and delete friends within a social networking database.",
     repo: "https://github.com/joshua-wade7/Social-Network-Api",
-    technologies: "",
+    technologies: " Node.js, MongoDB, Express.js, Insomnia",
     id: 3,
   },
   {
@@ -48,7 +50,7 @@ export const projects = [
     description:
       "A PWA that enables the user to create notes or code snippets with or without an internet connection.",
     repo: "https://github.com/joshua-wade7/PWA-Text-Editor",
-    technologies: "",
+    technologies: " PWA, Service Workers, Express.js, HTML",
     id: 4,
   },
   {
@@ -57,7 +59,7 @@ export const projects = [
     description:
       "A back-end application that allows a business owner to be able to view and track employees within every department of their business as well as the manager head(s).",
     repo: "https://github.com/joshua-wade7/Employee-Tracker",
-    technologies: "",
+    technologies: " Inquirer, MySQL, Node.js, JavaScript",
     id: 5,
   },
 ];
