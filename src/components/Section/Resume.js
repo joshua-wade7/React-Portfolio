@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
-import resume from "../../files/Files/JoshuaResume.pdf";
+import resume from "../../files/Files/JoshuaNelson.pdf";
 
 const styles = {
   bodyBackground: {

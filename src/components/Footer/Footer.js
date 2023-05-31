@@ -88,7 +88,7 @@ function ContainerInsideExample() {
           rel="noreferrer"
           >
           GitHub
-        </Navbar.Brand>
+          </Navbar.Brand>
         <Navbar.Brand href="#">Navbar</Navbar.Brand> */}
       </Container>
     </Navbar>
